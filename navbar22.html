@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css.map" />
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a href="#" class="navbar-brand">Brand</a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarCollapse"
+        >
+          <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link active">Home</a>
+            <a href="#" class="nav-item nav-link">Profile</a>
+            <div class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+                >Messages</a
+              >
+              <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Inbox</a>
+                <a href="#" class="dropdown-item">Sent</a>
+                <a href="#" class="dropdown-item">Drafts</a>
+              </div>
+            </div>
+          </div>
+          <form class="d-flex">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" />
+              <button type="button" class="btn btn-secondary">
+                <i class="bi-search"></i>
+              </button>
+            </div>
+          </form>
+          <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link">Login</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="row">
+      <div class="col-12">
+        <!-- carousel -->
+        <div class="carousel slide" id="idname1" data-bs-ride="carousel">
+          <!-- carousel indicators(ol) -->
+          <ol class="carousel-indicators">
+            <li
+              data-bs-target="#idname1"
+              data-bs-slide-to="0"
+              class="active"
+            ></li>
+
+            <li data-bs-target="#idname1" data-bs-slide-to="1"></li>
+
+            <li data-bs-target="#idname1" data-bs-slide-to="2"></li>
+
+            <li data-bs-target="#idname1" data-bs-slide-to="3"></li>
+          </ol>
+
+          <!-- carousel -inner(div) -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="lexus.jpg"
+                alt=""
+                class="d-block w-100"
+              />
+              <div class="carousel-caption">
+                <b><h1 class="">Last Of Us</h1></b>
+                <a href="" class="btn btn-warning">Watch Trailer</a>
+                <p>
+                  The Last of Us is an American post-apocalyptic drama television series created by Craig Mazin and Neil Druckmann for HBO. Based on the 2013 video game developed by Naughty Dog, the series is set in 2023, twenty years.....</p>
+               <br>
+                  <a href="" class="btn btn-primary">Buy now KES2000</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="lexus.jpg"
+                alt=""
+                class="d-block w-100"
+                height="50%"
+              />
+              <div class="carousel-caption">
+                <h4>Black Panther Wakanda Forever</h4>
+                <a href="" class="btn btn-warning">Watch Trailer</a>
+                <p>
+                  T'Challa, king of Wakanda, is dying from an illness which his
+                  sister ....</p>
+                <br>
+                <a href="" class="btn btn-primary">Buy now KES2000</a>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/5831134.jpg" alt="" class="d-block w-100" />
+              <div class="carousel-caption">
+                <h4>Ginny and Georgia</h4>
+                <a href="" class="btn btn-warning">Watch Trailer</a>
+              
+                <p class="text-dark">
+                  Ginny & Georgia follows fifteen-year-old Ginny Miller and her thirty-year-old mother Georgia, who, along with Georgia's son Austin, move to the fictional New England town of Wellsbury for a fresh start, after Georgia's husband dies</p><br>
+                <a href="" class="btn btn-primary">Buy now KES2000</a>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/8664947.jpg" alt="" class="d-block w-100" />
+              <div class="carousel-caption">
+                <h4>Wednesday</h4>
+                <a href="" class="btn btn-warning">Watch Trailer</a>
+              
+                <p>
+                  Wednesday is an American coming-of-age supernatural comedy horror streaming television series based on the character Wednesday Addams by Charles Addams....</p><br>
+                  <a href="" class="btn btn-primary">Buy now KES2000</a>
+              </div>
+            </div>
+          </div>
+          <!-- carousel-controls (a)-->
+          <a href="#idname1" class="carousel-control-prev" data-bs-slide="prev"
+            ><span class="carousel-control-prev-icon"></span>
+          </a>
+
+          <a href="#idname1" class="carousel-control-next" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- carousel end here -->
+
+    <footer>&copy; &#174; &#8364; &#8482;</footer>
+  </body>
+</html>
